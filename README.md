@@ -9,6 +9,9 @@ is exactly the same as a examples/test directories in bdsim
 * `cd BDSIM_BUILD`
 * `cmake ../BDSIM_SRC -DBDSIM_GENERATE_REGRESSION_DATA=ON`
 * `BDSIM_SRC/.github/bin/copy_reference_files.sh BDSIM_BUILD BDSIM_TESTDATA`
+* `cd BDSIM_TESTDATA`
+* `git add -A`
+* 'git commit -a -m "Update reference test data"
 
 ## Other than root files
 
